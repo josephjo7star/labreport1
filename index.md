@@ -12,5 +12,15 @@
 4. part 4: For this step, the first thing you need to do is make a file on your computer. After that, type in the following on your local terminal window: scp WhereAmI.java username@ieng6.ucsd.edu:~/
 * After that, you should see the file on your remote computer
 * ![my result](https://github.com/josephjo7star/labreport1/blob/main/image3.png)
-5. 
+---
+5. part 5: for setting up ssh key, the first thing you need to do is type *ssh-keygen* on your computer's terminal window. Then follow the step and enter the file name of where you want your key to be stored. when it asks you to enter the passphrase, press "enter" twice because it means "no passphrase".
+* when it's finished, follow the following steps:
+  1. on your computer terminal window, log in to your ssh 
+  2. on your remote computer, type "mkdir .ssh"
+  3. log out
+  4. type "scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys" but replace the path and user name with your own
+  5. after that, you should be able to use scp or log into ssh without entering your password
+* ![my result](https://github.com/josephjo7star/labreport1/blob/main/image6.png)
+* here is my result, but there is something wrong. you can see that even after I finished the above step, it still requires entering the password. I do not know the reason for this, but I suspect that it's because I was not logging into the cse15l lab account, but rather my school account. Some of the settings may be different between the two accounts. Also when I tried to type "mkdir .ssh", it tells me that a directory called .ssh had already existed so you can see me trying to delete everything in the directory and create a new one
+---
 6.
