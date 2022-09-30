@@ -4,7 +4,7 @@
 ---
 2. part 2: The second step is to remotely log into the computer. The first thing I did is open a terminal window and type out *ssh username@ieng6.ucsd.edu (username to be replaced by yours)*. Then I enter the password and logged in.
 * ![my result](https://github.com/josephjo7star/labreport1/blob/main/image4.png)
-* The account names that appeared in these screenshots might be different because I was using different accounts.
+* The account names that appeared in these screenshots might be different because I was using different accounts due to the problem with ssh login.
 ---
 3. part 3: Now run some commands. ls allows you to see all the directories; cd follows by a directory name allows you to move into such a directory; mkdir followed by a name allows you to create a new directory with the name that you entered.
 * ![my result](https://github.com/josephjo7star/labreport1/blob/main/image2.png)
