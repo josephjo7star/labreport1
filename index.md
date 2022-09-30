@@ -23,4 +23,4 @@
 * ![my result](https://github.com/josephjo7star/labreport1/blob/main/image6.png)
 * here is my result, but there is something wrong. you can see that even after I finished the above step, it still requires entering the password. I do not know the reason for this, but I suspect that it's because I was not logging into the cse15l lab account, but rather my school account. Some of the settings may be different between the two accounts. Also when I tried to type "mkdir .ssh", it tells me that a directory called .ssh had already existed so you can see me trying to delete everything in the directory and create a new one
 ---
-6.
+6. The last part is optimizing. About this one, the best thing I could think of was just that we can use semicolon to separate multiple commands so we can write them all at once without having to, say, wait for the computer to login to ssh and then type out the rest of the commands.
