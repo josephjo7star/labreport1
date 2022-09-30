@@ -13,7 +13,7 @@
 * After that, you should see the file on your remote computer
 * ![my result](https://github.com/josephjo7star/labreport1/blob/main/image3.png)
 ---
-5. part 5: for setting up ssh key, the first thing you need to do is type *ssh-keygen* on your computer's terminal window. Then follow the step and enter the file name of where you want your key to be stored. when it asks you to enter the passphrase, press "enter" twice because it means "no passphrase".
+5. part 5: for setting up ssh key, the first thing you need to do is type *ssh-keygen* on your computer's terminal window. Then enter the file name of where you want your key to be stored. when it asks you to enter the passphrase, press "enter" twice because it means "no passphrase".
 * when it's finished, follow the following steps:
   1. on your computer terminal window, log in to your ssh 
   2. on your remote computer, type "mkdir .ssh"
